@@ -1,0 +1,187 @@
+body {
+    background-color: #ffffff;
+   }
+
+   img {
+    display: block;
+    margin-left: 504;
+    margin-right: 145;
+    width: 50%;
+  }
+  .h1 {
+  font-family: 'Reenie Beanie', cursive;
+  }
+
+/* Ellipse 1 */
+.ellipse{
+position: absolute;
+width: 606px;
+height: 483px;
+left: 417px;
+top: 115px;
+border-radius: 60%;
+filter: none;
+
+background: #B18181;
+}
+
+/* cat 1 */
+.cat {
+position: absolute;
+width: 432px;
+height: 397px;
+left: 504px;
+top: 145px;
+
+background: url(/cat.webp);
+border-radius: 198.5px;
+}
+
+/* Rectangle 1 */
+.rectangle{
+position: absolute;
+width: 1440px;
+height: 281px;
+left: 0px;
+top: 0px;
+
+background: #AA5959;
+}
+
+/* Rectangle 2 */
+.rectangle2{
+position: absolute;
+width: 1440px;
+height: 281px;
+left: 0px;
+top: 203px;
+
+background: #831A1A;
+}
+
+/* CAPULUS */
+.capulus{
+position: absolute;
+width: 697px;
+height: 216px;
+left: 504px;
+top: 490px;
+
+font-family: Reenie Beanie;
+font-style: normal;
+font-weight: 500;
+font-size: 144px;
+line-height: 144px;
+
+color: #000000;
+}
+
+/* Rectangle 3 */
+.rectangle3{
+position: absolute;
+width: 448px;
+height: 103px;
+left: 514px;
+top: 739px;
+
+background: #C4C4C4;
+border-radius: 51.5px;
+}
+
+/*Login*/
+.login{
+position: absolute;
+width: 448px;
+height: 103px;
+left: 523px;
+top: 668px;
+text-align:center;
+transition: 0.4s;
+
+font-family: Rancho;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 91px;
+color: #000000;
+
+background: #C4C4C4;
+border-radius: 51.5px;
+}
+/*login hover*/
+.login:hover{
+    background:lightgreen;
+    color:honeydew;
+}
+
+/* Sign Up*/
+.signup{
+position: absolute;
+width: 448px;
+height: 103px;
+left: 523px;
+top: 797px;
+text-align: center;
+transition: 0.4s;
+
+font-family: Rancho;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 91px;
+
+color: #000000;
+
+background: #C4C4C4;
+border-radius: 51.5px;
+}
+
+/*signup hover*/
+
+.signup:hover{
+    background:lightgreen;
+    color:honeydew;
+}
+
+/* About us */
+.about{
+position: absolute;
+width: 194px;
+height: 58px;
+left: 1130px;
+top: 0px;
+
+font-family: Rancho;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 79px;
+
+color: #000000;
+}
+
+/* brewing button */
+.brewing{
+position: absolute;
+width: 448px;
+height: 103px;  
+left: 514px;
+top: 739px;
+display:none;
+text-align: center;
+
+font-family: Rancho;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 102px;
+
+color: #000000;
+background: #C4C4C4;
+border-radius: 51.5px;
+}
+
+.brewing:hover{
+    background-color: rgb(141, 96, 0);
+}
+

@@ -1,0 +1,186 @@
+/* popup for signup */
+.popup1{
+position: absolute;
+width: 988px;
+height: 747px;
+left: 213px;
+top: 122px;
+display: none;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+background: #C4C4C4;
+mix-blend-mode: multiply;
+border-radius: 50px;
+
+}
+
+
+/* username signup */
+.usersign{
+position: absolute;
+width: 617px;
+height: 73px;
+left: 240px;
+top: 54px;
+
+border: 10px solid #000000;
+transform: rotate(0.0deg);
+}
+
+/* Email line */
+.emailhold{
+position: absolute;
+width: 617px;
+height: 73px;
+left: 150px;
+top: 152px;
+font-size: 32;
+
+
+
+border: 10px solid #000000;
+transform: rotate(0.0deg);
+}
+
+/* password signup */
+.passwordhold{
+position: absolute;
+width: 10px;
+height: 73px;
+left: 250px;
+top: 250px;
+
+border: 10px solid #000000;
+transform: rotate(0.0deg);
+}
+
+/* confirm password signup */
+.passwordhold1{
+position: absolute;
+width: 617px;
+height: 73px;
+left: 250px;
+top: 348px;
+
+border: 10px solid #000000;
+transform: rotate(0.0deg);
+}
+
+/* username */
+.username1{
+position: absolute;
+width: 226px;
+height: 73px;
+left: 20px;
+top: 10px;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 68px;
+
+color: #000000;
+}
+
+
+/* email */
+.email{
+position: absolute;
+width: 226px;
+height: 73px;
+left: -25px;
+top: 110px;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 68px;
+
+color: #000000;
+}
+
+
+/* password */
+.password1{
+position: absolute;
+width: 226px;
+height: 73px;
+left: 20px;
+top: 210px;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 68px;
+
+color: #000000;
+}
+
+
+/* confirm password */
+.confirmpassword{
+position: absolute;
+width: 226px;
+height: 73px;
+left: 20px;
+top: 310px;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 68px;
+
+color: #000000;
+}
+
+
+/* confirm sign up*/
+.confirm1{
+    position: absolute;
+    width: 565px;
+    height: 141px;
+    left: 200px;
+    top: 500px;
+    text-align: center;
+    display: block;
+    
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 141px;
+    
+    color: #000000;
+    
+    background: #8D6B6B;
+    mix-blend-mode: normal;
+    border-radius: 100px;
+    }
+
+
+/* close*/
+.close1 {
+    position:absolute;
+    width: 63px;
+    height: 46px;
+    right: -15px;
+    top: -15px;
+    
+    background: #ffffff;
+    border-radius: 100%;
+    animation:mymove 1s;
+    animation-duration: 1.4s;
+    cursor:pointer;
+    
+    }
+
+    @keyframes mymove {
+        from {left: 0px;}
+        to {left: 940px;}
+    }

@@ -1,0 +1,115 @@
+/* popup*/
+.popup{
+position: absolute;
+width: 939px;
+height: 456px;
+left: 271px;
+top: 261px;
+display: none;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+background: #C4C4C4;
+mix-blend-mode: multiply;
+border-radius: 50px;
+}
+
+
+/* confirm*/
+.confirm{
+position: absolute;
+width: 565px;
+height: 141px;
+left: 200px;
+top: 250px;
+text-align: center;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 141px;
+
+color: #000000;
+
+background: #8D6B6B;
+mix-blend-mode: normal;
+border-radius: 100px;
+}
+
+/* username */
+.username{
+position: absolute;
+width: 208px;
+height: 72px;
+left: 20px;
+top: 50px;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 68px;
+
+color: #000000;
+
+}
+
+/* password */
+.password{
+position: absolute;
+width: 208px;
+height: 72px;
+left: 20px;
+top: 170px;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 68px;
+
+color: #000000;
+}
+
+
+
+/* close*/
+.close {
+position:absolute;
+width: 63px;
+height: 46px;
+right: -15px;
+top: -15px;
+
+background: #ffffff;
+border-radius: 100%;
+animation:mymove 1s;
+animation-duration: 1.4s;
+cursor:pointer;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: -15px;}
+}
+
+input{
+    position: relative;
+    width: 617px;
+    height: 173px;
+    left: 555px;
+    top: 317px;
+    display: block;
+    font-size: 42px;
+
+    background: #23c215;
+mix-blend-mode: no;   
+}
+
+text{
+    font-size: 42px;
+}
+
+
